@@ -1,0 +1,25 @@
+{
+  "name": "testmonoprix",
+  "version": "1.0.0",
+  "description": "Test Monoprix",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node ./src/index.js"
+  },
+  "author": "Alioune Badara Mbaye",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.1.0",
+    "mongodb-memory-server": "^6.6.4",
+    "mongoose": "^5.10.0",
+    "uuid": "^8.3.0",
+    "validator": "^13.1.1",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "supertest": "^4.0.2"
+  }
+}
