@@ -13,7 +13,7 @@ describe('apis /user', () => {
                 "name": "John",
                 "surname": "Doe",
                 "dateOfBirth": "31/10/1985",
-                "phone": "0650915074",
+                "phone": "0689309378",
                 "address": "103 rue de la république"
             })
             expect(res.status).toBe(201);

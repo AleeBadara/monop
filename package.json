@@ -7,13 +7,16 @@
     "test": "jest --watchAll",
     "start": "node ./src/index.js"
   },
+  "jest": {
+    "setupFiles": [
+      "./jest-config.js"
+    ]
+  },
   "author": "Alioune Badara Mbaye",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "helmet": "^4.1.0",
-    "mongodb-memory-server": "^6.6.4",
-    "mongoose": "^5.10.0",
     "uuid": "^8.3.0",
     "validator": "^13.1.1",
     "winston": "^2.4.0"
